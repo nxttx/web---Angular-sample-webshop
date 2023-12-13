@@ -1,0 +1,10 @@
+<div routerLink="/products/{{id}}" class="app-product">
+
+  <img [src]="image" alt="product image">
+  <div class="app-product_info">
+    <p><strong>{{title | firstCharCapital }}</strong></p>
+    <p title="{{description}}"><i>{{description | firstCharCapital | maxStringLength:16 }}</i></p>
+    <p> &euro; {{price | calculateBtw | priceMustHaveDecimals}}</p>
+    <button (click)="addToCart()">Add to cart</button>
+  </div>
+</div>

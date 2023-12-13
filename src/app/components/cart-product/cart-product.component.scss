@@ -1,0 +1,32 @@
+.app-cart-product{
+  height: 100px;
+  margin-bottom: 1em;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    margin-bottom: 0;
+  }
+  .__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    .__info__title_description{
+      width: 100%;
+      margin: 0 1em;
+    }
+    .__info__price_quantity{
+      padding-right: 1em;
+      width: max-content;
+      p{
+        width: max-content;
+
+      }
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

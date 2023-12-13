@@ -1,0 +1,19 @@
+<h2>Products</h2>
+<p>All our products are listed here</p>
+
+<div class="app-products" >
+  @if(products.state === 'not_loaded' || products.state === 'loading'){
+    <p>Loading...</p>
+  }@else if(products.state === 'loaded'){
+    @for(product of products.object; track product.id){
+      <app-product [id]="product.id" [image]="product.image" [title]="product.title" [description]="product.description" [price]="product.price"> </app-product>
+  
+    }@empty{
+      <p>no products found</p>  
+    }
+  }@else if(products.state === 'error'){
+    <p>error loading products</p>
+  }
+
+
+</div>

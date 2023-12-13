@@ -1,0 +1,15 @@
+<div class="app-cart-product">
+  <img [src]="image" alt="product image">
+  <div class="__info">
+    <div class="__info__title_description">
+      <p><strong>{{title | firstCharCapital }}</strong></p>
+      <p title="{{description}}"><i>{{description | firstCharCapital | maxStringLength:57 }}</i></p>
+    </div>
+    <div class="__info__price_quantity">	
+      <p> &euro; {{price | calculateBtw | priceMustHaveDecimals}}</p>
+      <p>Quantity: {{quantity}}</p>
+    </div>
+  </div>
+  <button (click)="addToCart()">Add more</button>
+  <button (click)="removeFromCart()">Remove</button>
+</div>

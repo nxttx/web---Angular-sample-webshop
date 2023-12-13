@@ -1,0 +1,338 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Koffiekan",
+      "description": "Mooie koffiekan 1L",
+      "image": "/assets/placeholder300.png",
+      "price": 9,
+      "review": {
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "id": 0,
+            "name": "Jan",
+            "comment": "Ik ben erg blij met deze koffiekan. Hij is mooi, goedkoop en maakt heerlijke koffie!",
+            "rating": 5
+          },
+          {
+            "id": 1,
+            "name": "Piet",
+            "comment": "Dit is de beste koffiekan die ik ooit heb gehad.",
+            "rating": 5
+          },
+          {
+            "id": 2,
+            "name": "Marie",
+            "comment": "Ik vind deze koffiekan een beetje aan de kleine kant, maar hij is wel goedkoop.",
+            "rating": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Apple oordopjes",
+      "description": "Nieuwe Apple oordopjes",
+      "image": "/assets/placeholder300.png",
+      "price": 29.2,
+      "review": {
+        "averageRating": 4,
+        "reviews": [
+          {
+            "id": 3,
+            "name": "Jan",
+            "comment": "Ik vind de geluidskwaliteit van deze oordopjes geweldig.",
+            "rating": 5
+          },
+          {
+            "id": 4,
+            "name": "Piet",
+            "comment": "Ik vind de pasvorm van deze oordopjes niet zo goed.",
+            "rating": 3
+          },
+          {
+            "id": 5,
+            "name": "Marie",
+            "comment": "Ik heb deze oordopjes nog maar een paar keer gebruikt, maar ik vind ze tot nu toe erg goed.",
+            "rating": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Koptelefoon",
+      "description": "Koptelefoon",
+      "image": "/assets/placeholder300.png",
+      "price": 49.596,
+      "review": {
+        "averageRating": 4,
+        "reviews": [
+          {
+            "id": 6,
+            "name": "Jan",
+            "comment": "Ik vind de geluidskwaliteit van deze koptelefoon geweldig.",
+            "rating": 5
+          },
+          {
+            "id": 7,
+            "name": "Piet",
+            "comment": "Ik vind de pasvorm van deze koptelefoon niet zo goed.",
+            "rating": 3
+          },
+          {
+            "id": 8,
+            "name": "Marie",
+            "comment": "Ik heb deze koptelefoon nog maar een paar keer gebruikt, maar ik vind ze tot nu toe erg goed.",
+            "rating": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Boekenplank",
+      "description": "Boekenplank voor 10 boeken",
+      "image": "/assets/placeholder300.png",
+      "price": 29.99,
+      "review": {
+        "averageRating": 4.3,
+        "reviews": [
+          {
+            "id": 9,
+            "name": "Jan",
+            "comment": "Ik vind deze boekenplank erg mooi en stevig.",
+            "rating": 5
+          },
+          {
+            "id": 10,
+            "name": "Piet",
+            "comment": "Deze boekenplank is een beetje aan de kleine kant voor 10 boeken.",
+            "rating": 4
+          },
+          {
+            "id": 11,
+            "name": "Marie",
+            "comment": "Ik heb deze boekenplank nog maar net gekocht, maar ik ben er tot nu toe erg tevreden over.",
+            "rating": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lamp",
+      "description": "Lamp met 3 standen",
+      "image": "/assets/placeholder300.png",
+      "price": 19.95,
+      "review": {
+        "averageRating": 4,
+        "reviews": [
+          {
+            "id": 12,
+            "name": "Jan",
+            "comment": "Ik vind deze lamp erg mooi en praktisch.",
+            "rating": 5
+          },
+          {
+            "id": 13,
+            "name": "Piet",
+            "comment": "De lamp is een beetje aan de zware kant.",
+            "rating": 3
+          },
+          {
+            "id": 14,
+            "name": "Marie",
+            "comment": "Ik heb deze lamp nog maar pas gekocht, maar ik ben er tot nu toe erg blij mee.",
+            "rating": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Kussen",
+      "description": "Comfortabel kussen",
+      "image": "/assets/placeholder300.png",
+      "price": 12.99,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 7,
+      "title": "Deken",
+      "description": "Warme deken",
+      "image": "/assets/placeholder300.png",
+      "price": 24.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 8,
+      "title": "Vaas",
+      "description": "Mooie vaas",
+      "image": "/assets/placeholder300.png",
+      "price": 14.99,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 9,
+      "title": "Plant",
+      "description": "Plaatselijke plant",
+      "image": "/assets/placeholder300.png",
+      "price": 9.99,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 10,
+      "title": "Koffiemolen",
+      "description": "Koffiemolen voor versgemalen koffie",
+      "image": "/assets/placeholder300.png",
+      "price": 39.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 11,
+      "title": "Theepot",
+      "description": "Theepot voor 5 koppen thee",
+      "image": "/assets/placeholder300.png",
+      "price": 24.99,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 12,
+      "title": "Bord",
+      "description": "Bord voor 4 personen",
+      "image": "/assets/placeholder300.png",
+      "price": 19.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 13,
+      "title": "Bestek",
+      "description": "Bestek voor 4 personen",
+      "image": "/assets/placeholder300.png",
+      "price": 29.99,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 14,
+      "title": "Servies",
+      "description": "Servies voor 4 personen",
+      "image": "/assets/placeholder300.png",
+      "price": 49.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 15,
+      "title": "Pan",
+      "description": "Pan voor 4 personen",
+      "image": "/assets/placeholder300.png",
+      "price": 29.99,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 16,
+      "title": "Oven",
+      "description": "Oven met 7 functies",
+      "image": "/assets/placeholder300.png",
+      "price": 249.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 17,
+      "title": "Koelkast",
+      "description": "Koelkast met 3 deuren",
+      "image": "/assets/placeholder300.png",
+      "price": 499.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 18,
+      "title": "Vaatwasmachine",
+      "description": "Vaatwasmachine met 10 programma's",
+      "image": "/assets/placeholder300.png",
+      "price": 399.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 19,
+      "title": "TV",
+      "description": "4K TV met 55 inch scherm",
+      "image": "/assets/placeholder300.png",
+      "price": 699.95,
+      "review": {
+        "averageRating": -1,
+        "reviews": []
+      }
+    },
+    {
+      "id": 404,
+      "title": "X-ray bril",
+      "description": "Met deze bril ziet u door muren, kleding en zelfs de menselijke huid! Bekijk de wereld op een geheel nieuwe manier. **En vind misschien wel die pagina die je niet kunt vinden!**",
+      "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/3/16/mqaefatab6tn7j7thkuw/basement-x-ray-glasses-closeup",
+      "price": 999.95,
+      "review": {
+        "averageRating": 4,
+        "reviews": [
+          {
+            "id": 15,
+            "name": "Jan",
+            "comment": "Deze bril is geweldig! Ik kan nu alles zien wat ik wil. **Ook die pagina die ik kwijt was.**",
+            "rating": 5
+          },
+          {
+            "id": 16,
+            "name": "Piet",
+            "comment": "Deze bril is een beetje eng. Ik weet niet zeker of ik het wil gebruiken. **Maar ik kan nu wel zien hoe de bankdirecteur er uit ziet in zijn ondergoed.**",
+            "rating": 3
+          },
+          {
+            "id": 17,
+            "name": "Marie",
+            "comment": "Deze bril is heel interessant. Ik ben benieuwd wat ik allemaal zal zien. **Misschien wel de geheimen van de overheid.**",
+            "rating": 4
+          }
+        ]
+      }
+    }
+  ]
+}

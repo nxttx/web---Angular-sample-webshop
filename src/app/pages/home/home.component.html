@@ -1,0 +1,32 @@
+<h2>Featured products</h2>
+<div class="app-products">
+  @if(featuredProducts.state === 'not_loaded' || featuredProducts.state === 'loading'){
+    <p>Loading...</p>
+  }@else if(featuredProducts.state === 'loaded'){
+    @for(product of featuredProducts.object; track product.id){
+      <app-product [id]="product.id" [image]="product.image" [title]="product.title" [description]="product.description" [price]="product.price"> </app-product>
+  
+    }@empty{
+      <p>no products found</p>  
+    }
+  }@else if(featuredProducts.state === 'error'){
+    <p>error loading products</p>
+  }
+
+</div>
+<h2>Customers favorites</h2>
+<div class="app-products">
+  @if(favoriteProducts.state === 'not_loaded' || favoriteProducts.state === 'loading'){
+    <p>Loading...</p>
+  }@else if(favoriteProducts.state === 'loaded'){
+    @for(product of favoriteProducts.object; track product.id){
+      <app-product [id]="product.id" [image]="product.image" [title]="product.title" [description]="product.description" [price]="product.price"> </app-product>
+  
+    }@empty{
+      <p>no products found</p>  
+    }
+  }@else if(favoriteProducts.state === 'error'){
+    <p>error loading products</p>
+  }  
+
+</div>

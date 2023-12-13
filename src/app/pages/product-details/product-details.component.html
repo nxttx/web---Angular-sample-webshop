@@ -1,0 +1,44 @@
+@if(product.state === 'not_loaded' || product.state === 'loading'){
+<p>Loading...</p>
+}@else if(product.state === 'loaded'){
+<h1>
+  {{product.object.title | firstCharCapital }}
+</h1>
+
+<div class="product-details">
+  <img [src]="product.object.image" [alt]="product.object.title" />
+  <div class="product-details-info">
+    <p> {{product.object.description | firstCharCapital }} </p>
+    <div class="prices">
+      <p> &euro; {{product.object.price | calculateBtw | priceMustHaveDecimals}} (incl. BTW)</p>
+      <p> &euro; {{product.object.price | priceMustHaveDecimals}} (excl. BTW)</p>
+    </div>
+    <button (click)="addToCart()">Add to cart</button>
+  </div>
+</div>
+
+<div class="product-details-reviews">
+  <h2>Reviews</h2>
+  <div class="product-details-reviews-list">
+    @if(product.object.review.reviews.length > 0){
+    @for(review of product.object.review.reviews; track review.id){
+    <div class="product-details-reviews-list-item">
+      <p class="product-details-reviews-list-item-name">{{review.name}}</p>
+      <span class="product-details-reviews-list-item-rating"> 
+        @for(i of generateStars(review.rating); track i){
+        <span class="product-details-reviews-list-item-rating-star">★</span>
+        }
+      </span>
+      <p class="product-details-reviews-list-item-comment">{{review.comment}}</p>
+    </div>
+    }
+    }@else{
+    <p>No reviews yet</p>
+    }
+ 
+  </div>
+</div>
+
+}@else if(product.state === 'error'){
+<p>error loading product</p>
+}
